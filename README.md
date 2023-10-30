@@ -1,5 +1,5 @@
 # csharpbCalculator
-C# Console - Projeto Calculadora
+C# Console - Projeto COMANDOS
 
 <h1>   
      <img align="center" width="40px">
