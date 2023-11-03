@@ -1,7 +1,28 @@
-﻿int ano = Convert.ToInt32("74");
-Console.WriteLine(ano + "?");
+﻿using System;
 
-Console.WriteLine(" ou ");
+namespace Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite uma letra");
+            string letra = Console.ReadLine();
 
-ano = int.Parse("47");
-Console.WriteLine(ano + "?");
+            switch (letra)
+            {
+                case "a":
+                case "e":
+                case "i":
+                case "o":
+                case "u":
+                    Console.WriteLine("Vogal: " + letra);
+                    break;
+
+                default:
+                    Console.WriteLine($"Esta letra [{letra}] não é vogal.");
+                    break;
+            }
+        }
+    }
+}
