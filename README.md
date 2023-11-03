@@ -78,7 +78,6 @@ Aprender o básico sobre a linguagem C#.
           case '0': Sair(); break;
           default: OpcaoInvalida(); break;
       }
-
       switch (letra)
             {
                 case "a":
