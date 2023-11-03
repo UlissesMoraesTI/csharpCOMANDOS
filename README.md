@@ -33,11 +33,17 @@ C# Console - Projeto COMANDOS
 ## Objetivo
 Aprender o básico sobre a linguagem C#.
 
+
 ## Console
 Console.WriteLine("Linguagem C#");
 Console.ReadLine();
 Console.Clear();
 Console.ReadKey();
+
+
+## Convert
+int ano = Convert.ToInt32("74");
+
 
 ## IF
      if (data.Length != 0)
@@ -51,10 +57,11 @@ Console.ReadKey();
           time = int.Parse(data.Substring(0, data.Length));
       }
 
- ## Length
- time = int.Parse(data.Substring(0, data.Length - 1));
+## Length
+time = int.Parse(data.Substring(0, data.Length - 1));
 
- ## Parse
+## Parse
+ano = int.Parse("47");
 time = int.Parse(data.Substring(0, data.Length - 1));
 
 ## System
