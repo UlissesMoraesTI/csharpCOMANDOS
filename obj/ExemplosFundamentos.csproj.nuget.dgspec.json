@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj": {}
+    "c:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj": {}
   },
   "projects": {
-    "C:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj": {
+    "c:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
+        "projectUniqueName": "c:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
         "projectName": "ExemplosFundamentos",
-        "projectPath": "C:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
+        "projectPath": "c:\\dio\\ExemplosFundamentos\\ExemplosFundamentos.csproj",
         "packagesPath": "C:\\Users\\uliss\\.nuget\\packages\\",
-        "outputPath": "C:\\dio\\ExemplosFundamentos\\obj\\",
+        "outputPath": "c:\\dio\\ExemplosFundamentos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\uliss\\AppData\\Roaming\\NuGet\\NuGet.Config",
