@@ -35,14 +35,14 @@ Aprender o básico sobre a linguagem C#.
 
 
 ## Console
-Console.WriteLine("Linguagem C#");
-Console.ReadLine();
-Console.Clear();
-Console.ReadKey();
+     Console.WriteLine("Linguagem C#");
+     Console.ReadLine();
+     Console.Clear();
+     Console.ReadKey();
 
 
 ## Convert
-int ano = Convert.ToInt32("74");
+     int ano = Convert.ToInt32("74");
 
 
 ## IF
@@ -58,17 +58,17 @@ int ano = Convert.ToInt32("74");
       }
 
 ## Length
-time = int.Parse(data.Substring(0, data.Length - 1));
+     time = int.Parse(data.Substring(0, data.Length - 1));
 
 ## Parse
      ano = int.Parse("47");     
      time = int.Parse(data.Substring(0, data.Length - 1));
 
 ## System
-System.Environment.Exit(0);
+     System.Environment.Exit(0);
 
 ## Substring
-time = int.Parse(data.Substring(0, data.Length - 1));
+     time = int.Parse(data.Substring(0, data.Length - 1));
 
 ## switch
       switch (type)
@@ -80,10 +80,10 @@ time = int.Parse(data.Substring(0, data.Length - 1));
       }
 
 ## Thead
-Thread.Sleep(1000);
+     Thread.Sleep(1000);
 
 ## ToLower
-data = Console.ReadLine().ToLower();
+     data = Console.ReadLine().ToLower();
 
 ## While
        while (currentTime != time * 60)
