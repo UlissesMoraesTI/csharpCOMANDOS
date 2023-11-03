@@ -79,6 +79,21 @@ Aprender o básico sobre a linguagem C#.
           default: OpcaoInvalida(); break;
       }
 
+      switch (letra)
+            {
+                case "a":
+                case "e":
+                case "i":
+                case "o":
+                case "u":
+                    Console.WriteLine("Vogal: " + letra);
+                    break;
+
+                default:
+                    Console.WriteLine($"Esta letra [{letra}] não é vogal.");
+                    break;
+            }
+
 ## Thead
      Thread.Sleep(1000);
 
