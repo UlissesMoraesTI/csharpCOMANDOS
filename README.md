@@ -61,7 +61,7 @@ int ano = Convert.ToInt32("74");
 time = int.Parse(data.Substring(0, data.Length - 1));
 
 ## Parse
-     ano = int.Parse("47");
+     ano = int.Parse("47");     
      time = int.Parse(data.Substring(0, data.Length - 1));
 
 ## System
