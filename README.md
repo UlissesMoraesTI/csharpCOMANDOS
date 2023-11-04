@@ -57,12 +57,25 @@ Aprender o básico sobre a linguagem C#.
           time = int.Parse(data.Substring(0, data.Length));
       }
 
+## Interpolação
+     Console.WriteLine($"{x} - {y} = {x - y}");
+
 ## Length
      time = int.Parse(data.Substring(0, data.Length - 1));
+
+## Math
+     double radiano = angulo * Math.PI / 180;
+     Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tangente, 4)}");
 
 ## Parse
      ano = int.Parse("47");     
      time = int.Parse(data.Substring(0, data.Length - 1));
+
+## PI
+     double radiano = angulo * Math.PI / 180;
+
+## Round
+     Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tangente, 4)}");
 
 ## System
      System.Environment.Exit(0);
