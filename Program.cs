@@ -1,28 +1,13 @@
-﻿using System;
+﻿using ExemplosFundamentos.Models;
 
-namespace Program
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Digite uma letra");
-            string letra = Console.ReadLine();
+Calculadora calc = new Calculadora();
 
-            switch (letra)
-            {
-                case "a":
-                case "e":
-                case "i":
-                case "o":
-                case "u":
-                    Console.WriteLine("Vogal: " + letra);
-                    break;
-
-                default:
-                    Console.WriteLine($"Esta letra [{letra}] não é vogal.");
-                    break;
-            }
-        }
-    }
-}
+calc.Somar(5, 9);
+calc.Subtrair(7, 5);
+calc.Multiplicar(3, 8);
+calc.Dividir(15, 3);
+calc.Potencia(3, 3);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(81);
