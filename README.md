@@ -66,6 +66,30 @@ Aprender o básico sobre a linguagem C#.
 ## Interpolação
      Console.WriteLine($"{x} - {y} = {x - y}");
 
+## FOR
+     bool cabec = false;
+
+for (int i = 0; i < 10; i++)
+{
+    if (cabec == false)
+    {
+        Console.WriteLine($"Tabuada {i}");
+        cabec = true;
+    }
+    Console.WriteLine($" 1 x {i} = {1 * i}");
+    Console.WriteLine($" 2 x {i} = {2 * i}");
+    Console.WriteLine($" 3 x {i} = {3 * i}");
+    Console.WriteLine($" 4 x {i} = {4 * i}");
+    Console.WriteLine($" 5 x {i} = {5 * i}");
+    Console.WriteLine($" 6 x {i} = {6 * i}");
+    Console.WriteLine($" 7 x {i} = {7 * i}");
+    Console.WriteLine($" 8 x {i} = {8 * i}");
+    Console.WriteLine($" 9 x {i} = {9 * i}");
+    Console.WriteLine($" 10 x {i} = {10 * i}");
+    Console.WriteLine("############################");
+    cabec = false;
+}
+
 ## Length
      time = int.Parse(data.Substring(0, data.Length - 1));
 
