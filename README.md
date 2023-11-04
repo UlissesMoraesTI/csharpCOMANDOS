@@ -44,6 +44,9 @@ Aprender o básico sobre a linguagem C#.
 ## Convert
      int ano = Convert.ToInt32("74");
 
+## Decremento
+     currentTime--;
+
 
 ## IF
      if (data.Length != 0)
@@ -56,6 +59,9 @@ Aprender o básico sobre a linguagem C#.
           type = char.Parse(data.Substring(data.Length, 1));
           time = int.Parse(data.Substring(0, data.Length));
       }
+
+## Incremento
+     currentTime++;
 
 ## Interpolação
      Console.WriteLine($"{x} - {y} = {x - y}");
@@ -70,6 +76,8 @@ Aprender o básico sobre a linguagem C#.
 ## Parse
      ano = int.Parse("47");     
      time = int.Parse(data.Substring(0, data.Length - 1));
+     float v1 = float.Parse(Console.ReadLine());
+     type = char.Parse(data.Substring(data.Length, 1));
 
 ## PI
      double radiano = angulo * Math.PI / 180;
