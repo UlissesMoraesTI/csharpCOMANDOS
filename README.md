@@ -50,6 +50,12 @@ C# Console - Projeto COMANDOS
 ## Array.Resize
      Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
+
+## Array.Copy
+     int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+     Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+
 ## Console
      Console.WriteLine("Linguagem C#");
      Console.ReadLine();
