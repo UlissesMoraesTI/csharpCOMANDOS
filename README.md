@@ -145,6 +145,14 @@ Aprender o básico sobre a linguagem C#.
      data = Console.ReadLine().ToLower();
 
 ## While
+          int contador = 0;
+          
+          while (contador <= 10)
+          {
+              Console.WriteLine("Show!");
+              contador++;
+          }
+
        while (currentTime != time * 60)
        {
            Console.Clear();
