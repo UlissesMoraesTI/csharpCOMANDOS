@@ -103,6 +103,26 @@ C# Console - Projeto COMANDOS
          cabec = false;
      }
 
+## FOREACH
+
+     int[] arrayInteiros = new int[3];
+
+     arrayInteiros[0] = 72;
+     arrayInteiros[1] = 64;
+     arrayInteiros[2] = 50;
+     
+     Console.WriteLine("Array com FOR");
+     for (int i = 0; i <= arrayInteiros.Length; i++)
+     {
+         Console.WriteLine($"Posição nº {i} = {arrayInteiros[i]}");
+     }
+     
+     Console.WriteLine("Array com FOREACH");
+     foreach (int valor in arrayInteiros)
+     {
+         Console.WriteLine(valor);
+     }
+
 ## Length
      time = int.Parse(data.Substring(0, data.Length - 1));
 
