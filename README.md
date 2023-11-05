@@ -1,3 +1,5 @@
+
+
 # csharpbCalculator
 C# Console - Projeto COMANDOS
 
@@ -31,8 +33,19 @@ C# Console - Projeto COMANDOS
 
 
 ## Objetivo
-Aprender o básico sobre a linguagem C#.
+     Aprender o básico sobre a linguagem C#.
 
+## Array
+     int[] arrayInteiros = new int[3];
+     
+     arrayInteiros[0] = 72;
+     arrayInteiros[1] = 64;
+     arrayInteiros[2] = 50;
+     
+     for (int i = 0; i <= arrayInteiros.Length; i++)
+     {
+         Console.WriteLine($"Posição nº {i} = {arrayInteiros[i]}");
+     }
 
 ## Console
      Console.WriteLine("Linguagem C#");
