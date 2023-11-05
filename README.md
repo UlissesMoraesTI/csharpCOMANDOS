@@ -162,6 +162,19 @@ Aprender o básico sobre a linguagem C#.
        }
 
   ## do While
+     int numero = 0;
+     int soma = 0;
+     
+     do
+     {
+         Console.WriteLine("Digite um número <0=Encerrar>");
+         numero = Convert.ToInt32(Console.ReadLine());
+     
+         soma += numero;
+     
+     } while (numero != 0);
+     
+     Console.WriteLine($"Total da Soma é {soma}.");
 
      do
      {
