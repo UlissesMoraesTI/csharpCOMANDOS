@@ -69,25 +69,6 @@ C# Console - Projeto COMANDOS
 ## Decremento
      currentTime--;
 
-
-## IF
-     if (data.Length != 0)
-      {
-          type = char.Parse(data.Substring(data.Length - 1, 1));
-          time = int.Parse(data.Substring(0, data.Length - 1));
-      }
-      else
-      {
-          type = char.Parse(data.Substring(data.Length, 1));
-          time = int.Parse(data.Substring(0, data.Length));
-      }
-
-## Incremento
-     currentTime++;
-
-## Interpolação
-     Console.WriteLine($"{x} - {y} = {x - y}");
-
 ## FOR
      bool cabec = false;
 
@@ -130,6 +111,43 @@ C# Console - Projeto COMANDOS
      foreach (int valor in arrayInteiros)
      {
          Console.WriteLine(valor);
+     }
+
+## IF
+     if (data.Length != 0)
+      {
+          type = char.Parse(data.Substring(data.Length - 1, 1));
+          time = int.Parse(data.Substring(0, data.Length - 1));
+      }
+      else
+      {
+          type = char.Parse(data.Substring(data.Length, 1));
+          time = int.Parse(data.Substring(0, data.Length));
+      }
+
+## Incremento
+     currentTime++;
+
+## Interpolação
+     Console.WriteLine($"{x} - {y} = {x - y}");
+
+## List
+     List<string> listaString = new List<string>();
+     
+     listaString.Add("SP");
+     listaString.Add("BA");
+     listaString.Add("MG");
+     
+     Console.WriteLine("Com FOR");
+     for (int i = 0; i < listaString.Count; i++)
+     {
+         Console.WriteLine($"{listaString[i]}");
+     }
+     
+     Console.WriteLine("Com FOREACH");
+     foreach (string estado in listaString)
+     {
+         Console.WriteLine(estado);
      }
 
 ## Length
