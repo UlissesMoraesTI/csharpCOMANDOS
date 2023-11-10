@@ -130,6 +130,7 @@ C# Console - Projeto COMANDOS
 
 ## Interpolação
      Console.WriteLine($"{x} - {y} = {x - y}");
+     public string NomeCompleto => $"{Nome} {SobreNome}".ToUpper();
 
 ## List
      List<string> listaString = new List<string>();
@@ -314,6 +315,9 @@ C# Console - Projeto COMANDOS
 
 ## ToLower
      data = Console.ReadLine().ToLower();
+
+## ToUpper
+     public string NomeCompleto => $"{Nome} {SobreNome}".ToUpper();
 
 ## While
           int contador = 0;
