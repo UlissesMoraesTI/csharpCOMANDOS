@@ -197,7 +197,7 @@ C# Console - Projeto COMANDOS
      double radiano = angulo * Math.PI / 180;
      Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tangente, 4)}");
 
-## Métodos CONSTRUTORESath
+## Métodos CONSTRUTORES
      using System;
      using System.Collections.Generic;
      using System.Linq;
