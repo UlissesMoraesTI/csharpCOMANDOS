@@ -376,12 +376,13 @@ C# Console - Projeto COMANDOS
 ## ToUpper
      public string NomeCompleto => $"{Nome} {SobreNome}".ToUpper();
 
-
-## VALORES MONETARIOS ###
-## PORCENTAGEM ###
-## EDIÇÃO CPF ###
-## EDIÇÃO CNPJ ###
-## EDIÇÃO NÚMEROS ###
+## Valores Monetários
+     - VALORES MONETARIOS
+     - PORCENTAGEM
+     - EDIÇÃO CPF
+     - EDIÇÃO CNPJ
+     - EDIÇÃO NÚMEROS
+     
      using System.Globalization;
      using System.Linq.Expressions;
      
