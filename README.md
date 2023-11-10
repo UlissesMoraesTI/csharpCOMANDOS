@@ -113,6 +113,25 @@ C# Console - Projeto COMANDOS
          Console.WriteLine(valor);
      }
 
+## GET
+     public int Idade
+        {
+            get
+            {
+                return _idade;
+            }
+
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Idade Não pode ser negativa");
+                }
+
+                _idade = value;
+            }
+        }
+
 ## IF
      if (data.Length != 0)
       {
@@ -281,6 +300,25 @@ C# Console - Projeto COMANDOS
 ## Round
      Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tangente, 4)}");
 
+## SET
+     public int Idade
+        {
+            get
+            {
+                return _idade;
+            }
+
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Idade Não pode ser negativa");
+                }
+
+                _idade = value;
+            }
+        }
+
 ## System
      System.Environment.Exit(0);
 
@@ -312,6 +350,25 @@ C# Console - Projeto COMANDOS
 
 ## Thead
      Thread.Sleep(1000);
+
+## THROW
+     public int Idade
+        {
+            get
+            {
+                return _idade;
+            }
+
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Idade Não pode ser negativa");
+                }
+
+                _idade = value;
+            }
+        }
 
 ## ToLower
      data = Console.ReadLine().ToLower();
