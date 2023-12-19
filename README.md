@@ -234,6 +234,8 @@ C# Console - Projeto COMANDOS
 ## Interpolação
      Console.WriteLine($"{x} - {y} = {x - y}");
      public string NomeCompleto => $"{Nome} {SobreNome}".ToUpper();
+     /n = Quebra de Linha
+     $@ = Interpreta na mesma linha, mais de 1 linha.
 
 ## Leitura ARQUIVO TEXTO
      try
