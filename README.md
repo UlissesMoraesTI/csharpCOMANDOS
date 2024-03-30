@@ -47,6 +47,9 @@ C# Console - Projeto COMANDOS
          Console.WriteLine($"Posição nº {i} = {arrayInteiros[i]}");
      }
 
+     Array.Sort(arrayInteiros);
+     Array.Reverse(arrayInteiros);
+     
 ## Array.Resize
      Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
